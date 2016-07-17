@@ -1,0 +1,238 @@
+@media (min-width: 769px) {
+   .hidden-960px {
+      display: none;
+   }
+}
+@media (max-width: 768px) {
+   .hidden-768px {
+      display: none;
+   }
+   .container {
+      width: 768px;
+   }
+   .logo {
+      display: block;
+      margin-left: 10px;
+   }
+   .nav--header {
+      float: left;
+      margin-top: 28px;
+      margin-left: 8px;
+   }
+   .nav__item--header {
+      padding: 0 2px 0 2px;
+   }
+   .nav__item--header--item5 {
+      margin-left: 47px;
+   }
+   .nav__item--header--item4 {
+      margin-left: 48px;
+   }
+   .nav__item--header--item3 {
+      margin-left: 48px;
+   }
+   .nav__item--header--item2 {
+      margin-left: 48px;
+   }
+   .nav__item--header--item1 {
+      margin-left: 48px;
+   }
+   
+   /* SLIDER */
+   
+   .slider {
+      margin-top: 135px;
+   }
+   .slider__content {
+      height: 180px;
+      margin-left: 35px;
+      margin-top: 104px;
+   }
+   .slider__header {
+      margin-left: 1px;
+      color: #fefefe;
+      font: 400 48px / 36px 'League Gothic';
+   }
+   .slider__subheader {
+      margin-top: 7px;
+      color: #edbfff;
+      font: 400 24px / 36px 'League Gothic';
+   }
+   .slider__paragraph {
+      width: 272px;
+      margin-top: 3px;
+      color: #ffffff;
+      font: 300 16px / 26px 'Open Sans';
+   }
+   .slider__img--img1 {
+      top: -23px;
+      left: 438px;
+   }
+   .slider__nav {
+      margin-top: 36px;
+      margin-right: 152px;
+   }
+   
+   /* ABOUT */
+   
+   .about {
+      height: 343px;
+      margin-top: -71px;
+   }
+   .about__block {
+      height: 194px;
+      width: 205px;
+      margin-top: 76px;
+   }
+   .about__block--block1--left {
+      margin-left: 21px;
+   }
+   .about__block--block1--center {
+      margin-left: 43px;
+   }
+   .about__block--block1--right {
+      margin-left: 52px;
+   }
+   .about__icon--icon1 {
+      height: 25px;
+      width: 24px;
+      background: url(../img/icon/icon.png); 
+      background-position: 0 0;
+   }
+   .about__block>h3 {
+      color: #ffffff;
+      font: 400 24px / 24px 'League Gothic';
+      left: 53px;
+      top: 1px;
+   }
+   .about__block>p {
+      width: 151px;
+      margin-top: -6px;
+      top: 35px;
+      left: 53px;
+   }
+   .about__link {
+      top: 178px;
+      left: 143px;
+   }
+   .about__link--link3 {
+      left: 121px;
+      left: 147px;
+   }
+   
+   /* FEEDBACK AND BLOG */
+   
+   .feedback {
+      width: 338px;
+   }
+   .feedback__block {
+      width: 338px;
+      margin-left: 34px;
+   }
+   .feedback__block {
+      height: 272px;
+      width: 313px;
+      background-color: #fff;
+      box-shadow: 0px 1px 2px 0.00px rgba(0, 0, 0, 0.05);
+   }
+   .feedback__subheader {
+      height: 42px;
+      width: 90px;
+      margin-top: 28px;
+      color: #454545;
+      font: 400 24px / 24px 'League Gothic';
+   }
+   .feedback__text {
+      margin-left: 0;
+   }
+   .feedback__paragraph {
+      margin: 15px 41px 0 39px;
+   }
+   .feedback__nav {
+      margin-left: 148px;
+      margin-top: 23px;
+   }
+   
+   .blog {
+      width: 328px;
+      margin-left: 67px;
+   }
+   .blog__item {
+      width: 257px;
+   }
+   .blog__text {
+      letter-spacing: 0.27px;
+   }
+   .blog__img--img2 {
+      margin-top: 16px;
+   }
+   .blog__img--img3 {
+      margin-top: 14px;
+   }
+   
+   /* SPONSOR */
+   
+   .sponsor__item {
+      margin-top: 27px;
+   }
+   .sponsor__item--item1 {
+      margin-left: 13px;
+   }
+   .sponsor__item--item2 {
+      margin-left: 51px;
+   }
+   .sponsor__item--item3 {
+      margin-left: 50px;
+   }
+   .sponsor__item--item4 {
+      margin-left: 63px;
+   }
+   .sponsor__item--item5 {
+      margin-left: 54px;
+   }
+   .sponsor__item--item6 {
+      margin-left: 53px;
+   }
+   
+   /* COMMENTS */
+   
+   .comments__block {
+      height: 198px;
+      width: 206px;
+   }
+   .block3__header {
+      color: #454444;
+      font: 400 24px / 24px 'League Gothic';
+   }
+   .comments__block--block3--left {
+      margin-left: 10px;
+   }
+   .comments__block--block3--center {
+      margin-left: 60px;
+   }
+   .comments__block--block3--right {
+      margin-left: 57px; 
+   }
+   .block3__paragraph {
+      
+   }
+   
+   /* FOOTER */
+   
+   .footer {
+      width: 100%;
+      height: 201px;
+      background: url(../img/background/footer768.png); 
+      background-size: cover;
+   }
+   .nav--footer {
+      margin-left: 9px;
+      display: block;
+   }
+   .copyright {
+      float: none;
+      margin-top: 94px;
+      margin-left: 61px;
+   }
+}
+

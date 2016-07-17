@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'League Gothic';
+    src: url('../fonts/leaguegothic-condensedregular-webfont.eot');
+    src: url('../fonts/leaguegothic-condensedregular-webfont.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+.logo {
+   margin-top: 51px;
+}
+.header__nav {
+   display: inline;
+   height: 36px;
+   float: right;
+   margin-top: 78px;
+}
+.header__link {
+   font-family: 'League Gothic', Arial, sans-serif;
+   font-size: 15px;
+   letter-spacing: 1px;
+}
+
+.slider {
+   height: 400px;
+   margin-top: 172px;
+   background: url(../img/background/overlay-ie8.png); 
+}
