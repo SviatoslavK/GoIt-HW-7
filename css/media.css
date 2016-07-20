@@ -266,6 +266,10 @@
       text-decoration: none;
       text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
    }
+   .nav__link--link1--480px {
+      border-bottom: 2px solid #edbfff;
+      padding: 0 6px 2px 6px;
+   }
    .nav__item--480px {
       z-index: 5;
       height: 42px;
@@ -277,7 +281,7 @@
       position: relative;
       height: 47px;
       padding-right: 2px;
-      padding-top: 4px;
+      padding-top: 5px;
       border-top: 0;
       border-bottom: 0;
    }
@@ -392,9 +396,6 @@
       top: 113px;
       left: 367px;
    }
-   .about__block--block1--left {
-      margin-top: ;
-   }
    .about__block--block1--center {
       margin-top: 18px;
    }
@@ -497,4 +498,116 @@
       margin-left: 162px;
    }
    
+}
+
+@media (max-width: 320px) {
+   
+   .hidden-320px {
+      display: none;
+   }
+   .container {
+      width: 320px;
+   }
+   .logo {
+      margin-left: 83px;
+   }
+   
+   /* SLIDER */
+   
+   .slider {
+      height: 200px;
+      background: none;
+   }
+   .slider__content {
+      margin-top: 98px;
+      margin-left: 65px;
+   }
+   .slider__nav {
+      margin-top: 26px;
+      margin-left: 122px;
+   }
+   
+   /* ABOUT */
+   
+   .about {
+      margin-top: -353px;
+   }
+   .about__block {
+      margin-top: 68px;
+      margin-left: 29px;
+      width: 267px;
+   }
+   .about__block--block1--center {
+      margin-top: 18px;
+   }
+   .about__block--block1--right {
+      margin-top: 34px;
+   }
+   .about__block>p {
+      width: 200px;
+   }
+   .about__link {
+      left: 208px;
+   }
+   
+   /* COMMENT AND BLOG */
+   
+   .feedback {
+      width: 280px;
+      margin-left: 9px;
+   }
+   .feedback__block {
+      width: 256px;
+   }
+   .feedback__subheader {
+      height: 42px;
+      width: 90px;
+      margin-top: 25px;
+      margin-left: 36px;
+      color: #454545;
+      font: 400 24px / 24px 'League Gothic';
+   }
+   .feedback__text {
+      margin-left: 0;
+   }
+   .feedback__paragraph {
+      margin: 11px 2px 0 39px;
+   }
+   .feedback__nav {
+      margin-left: 130px;
+   }
+   .blog {
+      margin-left: 19px;
+   }
+   .blog__img--img2 {
+      margin-top: 12px;
+   }
+   .blog__img--img3 {
+      margin-top: 19px;
+   }
+   
+   /* SPONSOR */
+   
+   .sponsor {
+      height: 422px;
+   }
+   .sponsor__item--item1 {
+      margin-left: 61px;
+      margin-top: 54px;
+   }
+   .sponsor__item--item3 {
+      margin: 71px 0 0 69px;
+   }
+   .sponsor__item--item4 {
+      margin-left: 63px;
+      margin-bottom: 0;
+   }
+   .sponsor__item--item5 {
+      margin-left: 41px;
+   }
+   
+   .copyright {
+      margin-top: 29px;
+      margin-left: 90px;
+   }
 }
