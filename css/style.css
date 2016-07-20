@@ -27,7 +27,7 @@ body {
 }
 .container {
    position: relative;
-   width: 960px;
+   max-width: 960px;
    margin: 0 auto;
 }
 .header {
@@ -316,7 +316,7 @@ body {
 .blog {
    display: inline-block;
    height: 262px;
-   width: 439px;
+   width: 445px;
    margin-left: 58px;
    margin-top: 132px;
 }
@@ -352,7 +352,7 @@ body {
 .blog__text {
    color: #454545;
    font: 700 16px / 24px 'Open Sans';
-   letter-spacing: 0.9px;
+   letter-spacing: 0.3px;
 }
 .blog__paragraph {
    color: #454545;
