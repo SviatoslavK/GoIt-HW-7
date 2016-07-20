@@ -15,12 +15,12 @@
    }
    .logo {
       display: block;
-      margin-left: 10px;
+      margin-left: 5px;
    }
    .nav--header {
       float: left;
       margin-top: 28px;
-      margin-left: 8px;
+      margin-left: 3px;
    }
 
    .nav__item--header {
@@ -49,7 +49,7 @@
    }
    .slider__content {
       height: 180px;
-      margin-left: 35px;
+      margin-left: 29px;
       margin-top: 104px;
    }
    .slider__header {
@@ -70,11 +70,11 @@
    }
    .slider__img--img1 {
       top: -23px;
-      left: 438px;
+      left: 433px;
    }
    .slider__nav {
       margin-top: 36px;
-      margin-right: 152px;
+      margin-right: 157px;
    }
    
    /* ABOUT */
@@ -89,7 +89,7 @@
       margin-top: 76px;
    }
    .about__block--block1--left {
-      margin-left: 21px;
+      margin-left: 16px;
    }
    .about__block--block1--center {
       margin-left: 43px;
@@ -131,7 +131,7 @@
    }
    .feedback__block {
       width: 338px;
-      margin-left: 34px;
+      margin-left: 29px;
    }
    .feedback__block {
       height: 272px;
@@ -153,13 +153,13 @@
       margin: 15px 41px 0 39px;
    }
    .feedback__nav {
-      margin-left: 148px;
+      margin-left: 143px;
       margin-top: 23px;
    }
    
    .blog {
       width: 328px;
-      margin-left: 67px;
+      margin-left: 62px;
    }
    .blog__item {
       width: 257px;
@@ -180,7 +180,7 @@
       margin-top: 27px;
    }
    .sponsor__item--item1 {
-      margin-left: 13px;
+      margin-left: 8px;
    }
    .sponsor__item--item2 {
       margin-left: 51px;
@@ -209,7 +209,7 @@
       font: 400 24px / 24px 'League Gothic';
    }
    .comments__block--block3--left {
-      margin-left: 10px;
+      margin-left: 5px;
    }
    .comments__block--block3--center {
       margin-left: 60px;
@@ -227,7 +227,7 @@
       background-size: cover;
    }
    .nav--footer {
-      margin-left: 9px;
+      margin-left: 4px;
       display: block;
    }
    .copyright {
@@ -361,7 +361,7 @@
       background-size: cover;
    }
    .slider__nav {
-      margin-top: 21px;
+      margin-top: 20px;
       margin-left: 194px;
       float: none;
    }
@@ -377,7 +377,7 @@
    .about__block {
       height: 136px;
       width: 429px;
-      margin-top: 76px;
+      margin-top: 74px;
       margin-left: 22px;
    }
    .about__block>h3 {
@@ -407,8 +407,8 @@
    
    .feedback {
       width: 452px;
-      margin-top: 69px;
-      margin-left: 1px;
+      margin-top: 68px;
+      margin-left: 6px;
    }
    .feedback__block {
       width: 417px;
@@ -432,13 +432,13 @@
       top: 19px;
    }
    .feedback__nav {
-      margin-left: 195px;
+      margin-left: 190px;
       margin-top: 24px;
    }
    
    .blog {
       margin-left: 74px;
-      margin-top: 51px;
+      margin-top: 50px;
    }
    
    /* SPONSOR */
@@ -448,7 +448,7 @@
       margin-top: 89px;
    }
    .sponsor__item {
-      margin-top: 38px;
+      margin-top: 39px;
       margin-bottom: -14px;
    }
    .sponsor__item--item1 {
@@ -470,7 +470,7 @@
       
    }
    .comments__block--block3--left {
-      margin-top: 78px;
+      margin-top: 79px;
    }
    .comments__block--block3--center {
       margin-top: 56px;
