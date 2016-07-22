@@ -18,6 +18,11 @@ body {
    display: table;
    clear: both;
 }
+ .container {
+        position: relative;
+        width: 960px;
+        margin: 0 auto;
+    }
 .main {
    height: 869px;
    width: 100%;
@@ -25,11 +30,7 @@ body {
    background-position: center 0;
    background-size: cover;
 }
-.container {
-   position: relative;
-   max-width: 960px;
-   margin: 0 auto;
-}
+
 .header {
    height: 58px;
    padding-top: 51px;
@@ -93,6 +94,26 @@ body {
    margin-top: 169px;
    background-color: rgba(0, 0, 0, 0.2);
 }
+.slider__arrow--left {
+   position: absolute;
+   width: 22px;
+   height: 34px;
+   background: url(../img/icon/arrow--left.png); 
+   background-position: center center;
+   background-size: cover;
+   top: 56%;
+   left: -5%;
+}
+.slider__arrow--right {
+   position: absolute;
+   width: 22px;
+   height: 34px;
+   background: url(../img/icon/arrow--right.png);
+   background-position: center center;
+   background-size: cover;
+   top: 56%;
+   right: -5%;
+} 
 .slider__content {
    display: inline-block;
    height: 231px;
@@ -129,12 +150,31 @@ body {
 }
 .slider__nav {
    display: inline-block;
+   width: 100px;
    height: 19px;
-   width: 83px;
-   margin-top: 92px;
+   margin-top: 93px;
    float: right;
-   margin-right: 166px;
-   background: url(../img/icon/slider-nav.png); 
+   margin-right: 167px;
+}
+.slider-nav__item {
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    background-color: #3b3942;
+    float: left;
+    margin-left: 5px;
+}
+.slider-nav__link {
+    height: 11px;
+    width: 11px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: 3px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+.slider-nav__link:hover {
+    background-color: #e2e2e2;
 }
 
 /* ABOUT */ 
@@ -307,10 +347,29 @@ body {
 }
 .feedback__nav {
    height: 20px;
-   width: 85px;
-   background: url(../img/icon/feedback__nav.png); 
-   margin-left: 195px;
+   margin-left: 187px;
    margin-top: 3px;
+}
+.feedback-nav__item {
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    border:1px solid #e6e6e6;
+    background-color: #fff;
+    float: left;
+    margin-left: 5px;
+}
+.feedback-nav__link {
+    height: 11px;
+    width: 11px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: 3px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+.feedback-nav__link:hover {
+    background-color: #555555;
 }
 
 .blog {
