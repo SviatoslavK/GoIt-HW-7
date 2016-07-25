@@ -40,11 +40,18 @@
 .about__block--block1--center {
     display: none;
 }
+.about__block--block1>h3 {
+   left: 50px;
+}
+.about__block--block2>h3 {
+   left: 50px;
+}
+.about__block--block3>h3 {
+   left: 53px;
+}
 .about__link {
    top: 181px;
-}
-.about__link--link3 {
-   left: 217px;
+   left: 210px
 }
 .feedback-nav__item {
     border: 0;
@@ -75,5 +82,5 @@
     display: none;
 }
 .copyright {
-    width: 170px;
+    width: 200px;
 }
